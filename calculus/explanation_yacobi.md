@@ -195,11 +195,13 @@ J = \frac{\partial(x,y)}{\partial(r,\theta)} =
 $$
 
 Якобиан:
+
 $$
 J = \det(J) = \cos\theta \cdot r\cos\theta - (-r\sin\theta) \cdot \sin\theta = r\cos^2\theta + r\sin^2\theta = r
 $$
 
 Таким образом, при переходе к полярным координатам:
+
 $$
 dxdy = |J|drd\theta = rdrd\theta
 $$
